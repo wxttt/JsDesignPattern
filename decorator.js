@@ -11,8 +11,8 @@ tree.decorate = function(){
 };
 
 tree.getDecorator = function(decorator){
-	tree['decorator'].prototype = this;
-	return new tree['decorator'];
+	tree[decorator].prototype = this;
+	return new tree[decorator];
 };
 
 tree.blueBalls = function(){
