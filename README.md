@@ -1,1 +1,2 @@
-practice design pattern with javascript
+#学习设计模式
+2013.12.12日开始重新学习整理
