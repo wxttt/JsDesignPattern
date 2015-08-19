@@ -1,4 +1,4 @@
-s//策略模式定义了算法家族，分别封装起来，让他们之间可以互相替换，此模式让算法的变化不会影响到使用算法的客户。
+//策略模式定义了算法家族，分别封装起来，让他们之间可以互相替换，此模式让算法的变化不会影响到使用算法的客户。
 var validator = {
 
     // 所有可以的验证规则处理类存放的地方，后面会单独定义
@@ -84,7 +84,7 @@ var data = {
 validator.config = {
     first_name: 'isNonEmpty',
     age: 'isNumber',
-    username: 'isAlphaNum',
+    username: 'isAlphaNum'
 };
 
 validator.validate(data);
